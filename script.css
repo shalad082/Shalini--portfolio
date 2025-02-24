@@ -1,0 +1,155 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #0072ff, #00c6ff);
+    text-align: center;
+    padding: 4rem 0;
+    color: white;
+}
+
+#typing-text {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #ffd700;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    transition: color 0.3s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffd700;
+}
+
+/* Sections */
+section {
+    padding: 4rem 0;
+}
+
+/* Projects */
+#projects .card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#projects .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Skills */
+#skills .progress-bar {
+    background: linear-gradient(90deg, #ff5733, #ffcc33);
+    font-weight: bold;
+}
+
+/* Stats Section */
+#stats {
+    background: linear-gradient(90deg, #1d2671, #c33764);
+    color: white;
+}
+
+#stats h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#stats p {
+    font-size: 1.2rem;
+}
+
+/* Testimonials */
+#testimonials .card {
+    border-left: 5px solid #0072ff;
+    transition: transform 0.3s ease;
+}
+
+#testimonials .card:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Section */
+#contact {
+    background: linear-gradient(90deg, #0072ff, #00c6ff);
+    color: white;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: linear-gradient(90deg, #333, #555);
+    color: white;
+    padding: 1.5rem 0;
+}
+
+/* Back to Top Button */
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #0072ff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 1.5em;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease;
+}
+
+#back-to-top:hover {
+    background: #ffd700;
+}
+
+/* Dark Mode */
+.dark-theme {
+    background-color: #1e1e1e;
+    color: #f4f4f9;
+}
+
+.dark-theme header {
+    background: linear-gradient(90deg, #444, #222);
+}
+
+.dark-theme #contact, .dark-theme footer {
+    background: linear-gradient(90deg, #222, #444);
+}
+
+.dark-theme .card {
+    background-color: #333;
+    color: white;
+}
+
+.dark-theme #back-to-top {
+    background: #ffd700;
+    color: #222;
+}
+
+.dark-theme .navbar {
+    background-color: #222 !important;
+}
+
+.dark-theme .navbar-dark .navbar-nav .nav-link {
+    color: #ffd700;
+}
